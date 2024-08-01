@@ -1,0 +1,3 @@
+Experiment Number,compress,sourceDatabasetoTargetDatabase,tables,maxStreams,binary,Experiment startTime,TotalExperimentTime,TotaltransferTime,totalPrecheckTime,TotalClearTime
+1,GZIP,testdb_testdb,ORDERSWIDE2,10,False,1718840676.1849053,2497.648252248764,2422.2659685611725,108.738251,2.6302480697631836
+2,GZIP,testdb_testdb,ORDERSWIDE2,10,False,1718840676.1849053,3420.523285150528,2463.2272057533264,92.815776,910.9123868942261

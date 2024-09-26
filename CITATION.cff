@@ -1,0 +1,23 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  DMML: Machine-learning Performance Model for Data
+  Migration
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Hasti
+    family-names: Ghaneshirazi
+    email: hastighsh@gmail.com
+    affiliation: York University
+repository-code: 'https://github.com/yorku-ease/DmML.git'
+abstract: >-
+  A machine learning framework to predict data transfer
+  times during data migration tasks. Building on an existing
+  data migration benchmarking tool, the project aimed to
+  enhance predictive accuracy and streamline resource
+  planning.

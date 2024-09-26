@@ -1,0 +1,2 @@
+Experiment Number,compress,sourceDatabasetoTargetDatabase,tables,maxStreams,binary,Experiment startTime,TotalExperimentTime,TotaltransferTime,totalPrecheckTime,TotalClearTime
+1,LZ4,testdb_testdb,ORDERS2_ORDERS3_ORDERS4_ORDERS5_ORDERS6_ORDERS7_ORDERS8,5,False,1726327515.6209202,5059.189421653748,4283.602308750153,303.060958,4.302222728729248

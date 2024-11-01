@@ -1,0 +1,5 @@
+Experiment Number,compress,sourceDatabasetoTargetDatabase,tables,maxStreams,binary,attempt_number,Experiment startTime,TotalExperimentTime,TotaltransferTime,totalPrecheckTime,TotalClearTime,ExperimentStatus
+1,LZ4,testdb_testdb,dummy,5,False,1,1729147309.1172373,4068.8919146060944,4025.2637441158295,0,5.512186765670776,True
+1,LZ4,testdb_testdb,GIGANTICORDERS,5,False,1,1729147309.1172373,72.92285418510437,0,0,1.9745144844055176,False
+2,LZ4,testdb_testdb,GIGANTICORDERS,5,False,1,1729147309.1172373,18089.151966810226,18029.531205654144,0,9.636346578598022,True
+1,LZ4,testdb_testdb,GIGANTICORDERS,5,False,2,1729147309.1172373,15584.888007164001,15530.392621278763,0,2.840763568878174,True

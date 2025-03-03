@@ -1,0 +1,2 @@
+Experiment Number,compress,sourceDatabasetoTargetDatabase,tables,maxStreams,binary,attempt_number,Experiment startTime,TotalExperimentTime,TotaltransferTime,totalPrecheckTime,TotalClearTime,ExperimentStatus
+1,GZIP,testdb_testdb,ORDERS10_ORDERS10COPY_ORDERS10COPY2_ORDERS10COPY3_ORDERS10COPY4_ORDERS10COPY5,5,False,1,1738671044.7193518,7724.177187919617,7595.902469635009,0.0,14.81055760383606,True

@@ -34,4 +34,40 @@ Traditional data migration methods can be inefficient, requiring manual estimati
 
 ### Data Optimization  
 - **Use efficient compression methods (e.g., GZIP, LZ4)**.  
-- **Balance row distribution** to improve transfer efficiency.  
+- **Balance row distribution** to improve transfer efficiency.
+
+## Running the Model  
+
+To run the trained model, execute the `run_model.py` script located in the `./Run` folder. You will need to modify the script to input the desired feature values for prediction. The model will then output the predicted **transfer time** based on the provided inputs.  
+
+### Required Files  
+The `Run` folder contains:  
+- A **`.json` file** with the exported model configuration (used by the script).  
+- A **`.pkl` file** containing the trained model (optional, can be used for further analysis or alternative implementations).  
+
+By default, the script loads the model from the `.json` file, but the `.pkl` file is available if needed for custom use.  
+
+### Input Features  
+Modify the script to set appropriate values for your scenario:  
+
+#### **Numeric Features**  
+Ensure the units match the model's training data:  
+- **`num__Data size sum (MB)`** – Total data size (MB)  
+- **`num__Number of rows sum`** – Total number of rows  
+- **`num__Number of columns sum`** – Total number of columns  
+- **`num__maxStreams`** – Maximum concurrent data streams  
+- **`num__RAM (GB)`** – Available RAM (GB)  
+- **`num__CPU`** – Number of CPU cores  
+- **`num__Disk (GB)`** – Local disk storage (GB)  
+- **`num__External Disk (GB)`** – External disk storage (GB)  
+
+#### **Categorical Features**  
+Choose from the following options:  
+- **`compress`** – `'GZIP'`, `'LZ4'`, or `'NO'`  
+- **`binary`** – `True` or `False`  
+
+After modifying the script with the required values, run:  
+
+```bash
+python ./Run/run_model.py
+
